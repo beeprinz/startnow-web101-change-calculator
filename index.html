@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+  </head>
+  <body>
+    <!-- Write your markup here -->
+    <h1>Change Calculator</h1>
+    <form onsubmit="return handleClickEvent()">
+      How much is due for sale?<br><input id="amount-due" type="text"><br>
+      How much has the customer given you?<br><input id="amount-received" type="text"><br>
+      <button id="calculate-change">Calculate Change!</button>
+    </form>
+    <table>
+      <tr>
+          <td><p>Dollars</p></td>
+          <td><p>Quarters</p></td>
+          <td><p>Dimes</p></td>
+          <td><p>Nickles</p></td>
+          <td><p>Pennies</p></td>
+      </tr>
+      <tr>
+          <td><p id="dollars-output"></p></td>
+          <td><p id="quarters-output"></p></td>
+          <td><p id="dimes-output"></p></td>
+          <td><p id="nickels-output"></p></td>
+          <td><p id="pennies-output"></p></td>
+      </tr>
+  </table>
+    
+    
+     
+    
+   
+    <!-- Don't forget to add your <script> tag here -->
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
